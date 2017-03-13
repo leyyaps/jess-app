@@ -1,9 +1,11 @@
 class ContactsController < ApplicationController
   def new
+    @albums = Album.all
     @contact = Contact.new
   end
 
   def create
+    @albums = Album.all
     @contact = Contact.new(params[:contact])
     @contact.request = request
     if @contact.deliver

@@ -1,0 +1,51 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Albums</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Artist</th>
+      <th>Itunes link</th>
+      <th>Track 1</th>
+      <th>Track 2</th>
+      <th>Track 3</th>
+      <th>Track 4</th>
+      <th>Track 5</th>
+      <th>Track 6</th>
+      <th>Track 7</th>
+      <th>Track 8</th>
+      <th>Track 9</th>
+      <th>Track 10</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @albums.each do |album| %>
+      <tr>
+        <td><%= album.image %></td>
+        <td><%= album.artist %></td>
+        <td><%= album.itunes_link %></td>
+        <td><%= album.track_1 %></td>
+        <td><%= album.track_2 %></td>
+        <td><%= album.track_3 %></td>
+        <td><%= album.track_4 %></td>
+        <td><%= album.track_5 %></td>
+        <td><%= album.track_6 %></td>
+        <td><%= album.track_7 %></td>
+        <td><%= album.track_8 %></td>
+        <td><%= album.track_9 %></td>
+        <td><%= album.track_10 %></td>
+        <td><%= link_to 'Show', album %></td>
+        <td><%= link_to 'Edit', edit_album_path(album) %></td>
+        <td><%= link_to 'Destroy', album, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Album', new_album_path %>

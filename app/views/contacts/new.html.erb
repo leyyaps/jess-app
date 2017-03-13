@@ -1,16 +1,145 @@
-<div align="center">
-  <h3>Send A message to Us</h3>
+<header id="index" class="animated fadeInUp">
+  
+    <div class="header-content centered"> 
+    <%= image_tag("jess_logo_white.svg", :alt => "Jess Sharman Logo", :class => "img-responsive") %>          
 
-  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-    <%= f.input :name, :required => true %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
-    <div class= "hidden">
-      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+        <div class="social-icon-main">    
+            <a href="https://www.facebook.com/jessicasharmanmusic/" target="_blank"><i class="fa fa-facebook fa-2x social-icons landing"></i></a>
+
+            <a href="https://www.instagram.com/jessicasharman" target="_blank"><i class="fa fa-instagram fa-2x social-icons landing"></i></a>
+            
+            <a href="https://www.twitter.com/jessicasharman" target="_blank"><i class="fa fa-twitter fa-2x social-icons landing"></i></a>
+  
+        </div>
     </div>
-    <div>
-      </br>
-      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+  
+</header>
+<section id="jess">
+</section>
+
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">About</h2>
+                <hr class="dark">
+                <p class="">Jessica Sharman is a professional songwriter, topliner, producer and musician.</p>
+
+                <p>Her songs have been used worldwide for film (<span class="italic">The Inbetweeners 2</span>), TV (<span class="italic">Made In Chelsea, Saving Hope</span>) and advertising (<span class="italic">Burberry</span>).</p>
+
+                <p>She's had multiple radio plays, including consecutive weeks spent on Radio 2's A list (<span class="italic">Carry You Home</span>, Ward Thomas). She also co-wrote over a third of the Ward Thomas’ second album <span class="italic">Cartwheels</span>, which went straight to Number 1 making UK Music History by being the first Country album to reach top of the charts.</p>
+
+                <p>She works from her studio in London and has close ties to the music industry in Nashville and LA.</p>
+
+                
+            </div>
+        </div>
     </div>
-  <% end %>
-</div>
+</section>
+<section id="mixer">
+    
+
+
+</section>
+
+<section id="listen">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Listen</h2>
+              <hr class="primary">
+          </div>
+      </div>
+           
+      <div class="row effect-1 effects clearfix">
+      <% @albums.each do |album| %>
+        <div class="box text-center">
+          <%= image_tag(album.image, :alt => 'Album image', :class =>"img-responsive") %>
+              <div class="overlay">
+                  <h4><%= album.artist %>:</h4>
+                 <%= album.tracks %>
+
+
+                <%= link_to image_tag('get_it_on_itunes.svg', :alt => "Get it on itunes", :class => "img-responsive itunes"), album.itunes_link %>
+               
+                  <a class="close-overlay hidden">x</a>
+              </div>               
+          </div>
+        <%end%>
+       
+      </div>        
+
+    </div>
+</section>
+
+<section id="jess_tea">
+    
+
+
+</section>
+
+<section class="bg-primary" id="news">
+    <div class="container">          
+        <div class="row">
+             <h2 class="section-heading text-center">News</h2>
+                <hr class="dark">
+                <div class="col-md-6 col-md-offset-3">
+                   <a class="twitter-timeline"  href="https://twitter.com/jessicasharman" data-tweet-limit="3" data-widget-id="738039720383553536" data-chrome="nofooter noscrollbar">Tweets by @jessicasharman</a>
+                   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                   
+                   
+                    
+                </div>          
+                
+           
+        </div>
+    </div>
+</section>
+<section id="typewriter">
+    
+
+
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Contact</h2>
+                <hr class="dark">
+               
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+              
+              <%= simple_form_for @contact, :html => {:class => 'form-horizontal', :id => 'contactForm' } do |f| %>
+                <div class="form-group">
+                  <%= f.input :name, :placeholder => "Your Name", label: false, :input_html => { :class => 'form-control' } %>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <%= f.input :email, :placeholder => "Your Email", label: false, :input_html => { :class => 'form-control' } %>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                <%= f.input :message, :as => :text, :placeholder => "Your Message", label: false, :input_html => { :class => 'form-control' } %>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class= "hidden">
+                  <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+                </div>
+                
+                <div class="col-lg-12 text-center">
+                  <%= f.button :submit, 'Send message', :class=> "btn btn-xl" %>
+                </div>
+              <% end %>
+              
+            </div>
+        </div>
+    </div>
+                
+</section>
+
+
+

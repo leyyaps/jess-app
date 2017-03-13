@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  image: MyString
+  artist: MyString
+  itunes_link: MyString
+  track_1: MyString
+  track_2: MyString
+  track_3: MyString
+  track_4: MyString
+  track_5: MyString
+  track_6: MyString
+  track_7: MyString
+  track_8: MyString
+  track_9: MyString
+  track_10: MyString
+
+two:
+  image: MyString
+  artist: MyString
+  itunes_link: MyString
+  track_1: MyString
+  track_2: MyString
+  track_3: MyString
+  track_4: MyString
+  track_5: MyString
+  track_6: MyString
+  track_7: MyString
+  track_8: MyString
+  track_9: MyString
+  track_10: MyString

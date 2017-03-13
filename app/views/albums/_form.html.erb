@@ -1,0 +1,23 @@
+<%= simple_form_for(@album) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :image %>
+    <%= f.input :artist %>
+    <%= f.input :itunes_link %>
+    <%= f.input :track_1 %>
+    <%= f.input :track_2 %>
+    <%= f.input :track_3 %>
+    <%= f.input :track_4 %>
+    <%= f.input :track_5 %>
+    <%= f.input :track_6 %>
+    <%= f.input :track_7 %>
+    <%= f.input :track_8 %>
+    <%= f.input :track_9 %>
+    <%= f.input :track_10 %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

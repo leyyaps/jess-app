@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
 
 
-gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'bootstrap'
 
 gem 'devise'
 gem 'mail_form'
 gem 'carrierwave'
+gem 'font-awesome-sass'
 
 gem 'simple_form'
 

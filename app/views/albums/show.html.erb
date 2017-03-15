@@ -2,7 +2,8 @@
 
 <p>
   <strong>Image:</strong>
-  <%= @album.image %>
+
+  <%= image_tag(@album.image.thumb.url) if @album.image.present? %>
 </p>
 
 <p>
@@ -65,5 +66,5 @@
   <%= @album.track_10 %>
 </p>
 
-<%= link_to 'Edit', edit_album_path(@album) %> |
+ |
 <%= link_to 'Back', albums_path %>

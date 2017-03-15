@@ -4,11 +4,11 @@
     <%= image_tag("jess_logo_white.svg", :alt => "Jess Sharman Logo", :class => "img-responsive main-logo") %>     
 
         <div class="social-icon-main">    
-            <a href="https://www.facebook.com/jessicasharmanmusic/" target="_blank"><i class="fa fa-facebook fa-2x social-icons landing"></i></a>
+            <a class="px-3" href="https://www.facebook.com/jessicasharmanmusic/" target="_blank"><i class="fa fa-facebook fa-2x social-icons landing"></i></a>
 
-            <a href="https://www.instagram.com/jessicasharman" target="_blank"><i class="fa fa-instagram fa-2x social-icons landing"></i></a>
+            <a class="px-3" href="https://www.instagram.com/jessicasharman" target="_blank"><i class="fa fa-instagram fa-2x social-icons landing"></i></a>
             
-            <a href="https://www.twitter.com/jessicasharman" target="_blank"><i class="fa fa-twitter fa-2x social-icons landing"></i></a>
+            <a class="px-3" href="https://www.twitter.com/jessicasharman" target="_blank"><i class="fa fa-twitter fa-2x social-icons landing"></i></a>
   
         </div>
     </div>
@@ -51,21 +51,42 @@
           </div>
       </div>
            
-      <div class="row effect-1 effects clearfix">
+      <div id="effect-1" class="effects clearfix">
       <% @albums.each do |album| %>
-        <div class="box text-center">
-          <%= image_tag(album.image, :alt => 'Album image', :class =>"img-responsive") %>
+        
+        <div class="img">
+        
+          <%= image_tag(album.image.thumb, :alt => 'Album image', :class =>"img-fluid") %>
               <div class="overlay">
-                  <h4><%= album.artist %>:</h4>
-                 <%= album.tracks %>
+                
+                <h4><%= album.artist %>:</h4>
 
+                <div class="white">
+                 <%= album.track_1 %><br>
+                 <%= album.track_2 %><br>
+                 <%= album.track_3 %><br>
+                 <%= album.track_4 %><br>
+                 <%= album.track_5 %><br>
+                 <%= album.track_6 %><br>
+                 <%= album.track_7 %><br>
+                <%= album.track_8 %><br>
+                 <%= album.track_9 %><br>
+                 <%= album.track_10 %><br>
+                 <%= link_to image_tag('get_it_on_itunes.svg', :alt => "Get it on itunes", :class => "itunes"), album.itunes_link %>
+                </div>
+                
 
-                <%= link_to image_tag('get_it_on_itunes.svg', :alt => "Get it on itunes", :class => "img-responsive itunes"), album.itunes_link %>
-               
-                  <a class="close-overlay hidden">x</a>
-              </div>               
-          </div>
+                
+                
+                
+                <a class="close-overlay hidden">x</a>
+              
+                  
+              </div>
+          </div>                
+         
         <%end%>
+
        
       </div>        
 

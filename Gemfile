@@ -9,6 +9,9 @@ gem 'mail_form'
 gem 'carrierwave'
 gem 'font-awesome-sass'
 
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+
 gem 'simple_form'
 
 gem "mini_magick"

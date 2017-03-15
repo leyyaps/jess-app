@@ -11,9 +11,10 @@
 // about supported directives.
 //
 //= require jquery
-//= require bootstrap-sprockets
-//= require tether
 //= require jquery_ujs
+//= require tether
+//= require bootstrap-sprockets
+
 //= require turbolinks
 //= require nav
 //= require smoothscroll

@@ -15,4 +15,5 @@
 //= require tether
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require nav
+//= require smoothscroll

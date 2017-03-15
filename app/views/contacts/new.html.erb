@@ -1,7 +1,7 @@
 <header id="index" class="animated fadeInUp">
   
     <div class="header-content centered"> 
-    <%= image_tag("jess_logo_white.svg", :alt => "Jess Sharman Logo", :class => "img-responsive") %>          
+    <%= image_tag("jess_logo_white.svg", :alt => "Jess Sharman Logo", :class => "img-responsive main-logo") %>     
 
         <div class="social-icon-main">    
             <a href="https://www.facebook.com/jessicasharmanmusic/" target="_blank"><i class="fa fa-facebook fa-2x social-icons landing"></i></a>
@@ -17,10 +17,10 @@
 <section id="jess">
 </section>
 
-<section class="bg-primary" id="about">
+<section class="" id="about">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-md-6 offset-md-3 text-center">
                 <h2 class="section-heading">About</h2>
                 <hr class="dark">
                 <p class="">Jessica Sharman is a professional songwriter, topliner, producer and musician.</p>
@@ -78,12 +78,13 @@
 
 </section>
 
-<section class="bg-primary" id="news">
+<section class="" id="news">
     <div class="container">          
         <div class="row">
-             <h2 class="section-heading text-center">News</h2>
+            
+                <div class="col-md-6 offset-md-3 text-center">
+                <h2 class="section-heading">News</h2>
                 <hr class="dark">
-                <div class="col-md-6 col-md-offset-3">
                    <a class="twitter-timeline"  href="https://twitter.com/jessicasharman" data-tweet-limit="3" data-widget-id="738039720383553536" data-chrome="nofooter noscrollbar">Tweets by @jessicasharman</a>
                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                    
@@ -111,7 +112,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center">
+            <div class="col-md-6 offset-md-3 text-center">
               
               <%= simple_form_for @contact, :html => {:class => 'form-horizontal', :id => 'contactForm' } do |f| %>
                 <div class="form-group">

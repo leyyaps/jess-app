@@ -42,7 +42,7 @@
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
-    color: #6f9e6a;
+    
   }
   a:hover,
   a:focus {
@@ -98,12 +98,14 @@
   .social-icon-main {
     margin-top: 2em;
   }
-  i {
-    color: #fff;
+  
+
+  .btn:focus, .btn:hover {
+      text-decoration: none;
+      background-color: #e5c687;
+      cursor: pointer;
   }
-  #white {
-    color: #fff;
-  }
+
 
   #jess {
 
@@ -269,6 +271,19 @@ nav.navbar {
   border-radius: none;
   border: none;
   height: 60px;
+  
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #777;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #e5c687 !important;
 }
 
 a.navbar-brand {

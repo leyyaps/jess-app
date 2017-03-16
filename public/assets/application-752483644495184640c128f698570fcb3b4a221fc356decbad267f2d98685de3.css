@@ -15071,12 +15071,12 @@ i.fa.social-icons.landing:hover {
   padding: 0;
 }
 
-/* line 262, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 221, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 nav {
   -webkit-transition: all 0.7s ease 0s;
 }
 
-/* line 266, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 225, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 nav.navbar {
   background: transparent;
   background-image: none;
@@ -15087,7 +15087,7 @@ nav.navbar {
   height: 60px;
 }
 
-/* line 277, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 236, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .navbar-light .navbar-nav .nav-link {
   color: #777;
   text-transform: uppercase;
@@ -15096,12 +15096,12 @@ nav.navbar {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* line 285, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 244, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .navbar-light .navbar-nav .nav-link:hover {
   color: #e5c687 !important;
 }
 
-/* line 289, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 248, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 a.navbar-brand {
   width: 300px;
   height: 60px;
@@ -15109,73 +15109,73 @@ a.navbar-brand {
   -webkit-transition: all 0.7s ease 0s;
 }
 
-/* line 296, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 255, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 a.navbar-brand.scrolled {
   background: url("../images/jess_logo_black.svg") no-repeat center center;
   -webkit-transition: all 0.7s ease 0s;
 }
 
-/* line 301, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 260, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 nav.navbar.navbar-white {
   background-color: #ffffff;
   -webkit-transition: all 0.7s ease 0s;
 }
 
-/* line 306, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 265, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 div#main-navbar.navbar-toggleable-md {
   text-align: center;
 }
 
 @media screen and (max-width: 992px) {
-  /* line 311, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 276, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   #main-navbar {
     clear: both;
   }
 }
-/* line 323, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 285, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 img.main-logo {
   margin-left: auto;
   margin-right: auto;
   width: 700px;
 }
 
-/* line 330, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 293, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 img#brand-logo {
   margin-top: 5px;
 }
 
-/* line 333, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 296, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .panel-default {
   border: none;
 }
 
-/* line 336, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 299, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .form-control {
   font-size: 16px;
 }
 
-/* line 340, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 303, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 input#contact_name.string {
   width: 100%;
   font-size: 16px;
   font-family: 'Merriweather';
 }
 
-/* line 345, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 308, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 input#contact_email.string {
   width: 100%;
   font-size: 16px;
   font-family: 'Merriweather';
 }
 
-/* line 351, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 314, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 textarea#contact_message.text {
   width: 100%;
   font-size: 16px;
   font-family: 'Merriweather';
 }
 
-/* line 356, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 319, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 input.button.btn.btn-xl {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   border: none;
@@ -15187,17 +15187,17 @@ input.button.btn.btn-xl {
   text-shadow: none;
 }
 
-/* line 368, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 331, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 span.error {
   display: none;
 }
 
-/* line 371, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 334, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 374, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 337, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 input.button.btn.btn-xl:hover {
   background-image: none;
   background-color: #e5c687;
@@ -15206,17 +15206,17 @@ input.button.btn.btn-xl:hover {
 /* ============================================================
   OVERLAY
 ============================================================ */
-/* line 384, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 347, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .white {
   color: #fff;
 }
 
-/* line 388, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 351, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .effects {
   padding-left: 15px;
 }
 
-/* line 391, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 354, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .effects .img {
   position: relative;
   float: left;
@@ -15225,22 +15225,22 @@ input.button.btn.btn-xl:hover {
   overflow: hidden;
 }
 
-/* line 398, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 361, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .effects .img:nth-child(n) {
   margin-right: 5px;
 }
 
-/* line 401, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 364, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .effects .img:first-child {
   margin-left: -15px;
 }
 
-/* line 404, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 367, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .effects .img:last-child {
   margin-right: 0;
 }
 
-/* line 407, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 370, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .effects .img img {
   display: block;
   margin: 0;
@@ -15249,7 +15249,7 @@ input.button.btn.btn-xl:hover {
   height: auto;
 }
 
-/* line 415, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 378, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .overlay {
   display: block;
   position: absolute;
@@ -15261,7 +15261,7 @@ input.button.btn.btn-xl:hover {
   text-align: center;
 }
 
-/* line 428, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 391, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 a.close-overlay {
   display: block;
   position: absolute;
@@ -15279,12 +15279,12 @@ a.close-overlay {
   cursor: pointer;
 }
 
-/* line 444, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 407, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 a.close-overlay.hidden {
   display: none;
 }
 
-/* line 448, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 411, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 a.expand {
   display: block;
   position: absolute;
@@ -15300,7 +15300,7 @@ a.expand {
   border-radius: 30px;
 }
 
-/* line 466, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 429, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 img.itunes {
   max-width: 10px;
   position: relative;
@@ -15312,7 +15312,7 @@ img.itunes {
 /* ============================================================
   EFFECT 1 - SLIDE IN BOTTOM
 ============================================================ */
-/* line 476, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 439, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 #effect-1 .overlay {
   bottom: 0;
   left: 0;
@@ -15321,7 +15321,7 @@ img.itunes {
   height: 0;
 }
 
-/* line 483, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 446, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 #effect-1 .overlay a.expand {
   left: 0;
   right: 0;
@@ -15329,18 +15329,18 @@ img.itunes {
   margin: 0 auto -30px auto;
 }
 
-/* line 489, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 452, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 #effect-1 .img.hover .overlay {
   height: 100%;
 }
 
 /* END slide in bottom*/
-/* line 495, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 458, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 article {
   margin-top: 50px;
 }
 
-/* line 498, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 461, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 header {
   position: relative;
   width: 100%;
@@ -15353,17 +15353,17 @@ header {
   color: white;
 }
 
-/* line 512, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 475, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 #contactForm {
   padding: 20px 0px 20px 0;
 }
 
-/* line 516, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 479, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 #contactForm button {
   margin-top: 20px;
 }
 
-/* line 520, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 483, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .newsheadline {
   position: absolute;
   width: 200px;
@@ -15375,7 +15375,7 @@ header {
   margin-top: -25px;
 }
 
-/* line 534, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 495, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 header .header-content {
   position: absolute;
   left: 50%;
@@ -15386,41 +15386,20 @@ header .header-content {
   max-width: 100%;
 }
 
-/* line 542, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
-header .header-content .header-content-inner h1 {
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-/* line 548, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
-header .header-content .header-content-inner hr {
-  margin: 30px auto;
-}
-
-/* line 551, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
-header .header-content .header-content-inner p {
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
-  margin-bottom: 50px;
-}
-
 @media (min-width: 768px) {
-  /* line 558, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 507, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   header {
     min-height: 100%;
   }
 
-  /* line 562, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 511, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 567, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 516, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   header .header-content .header-content-inner p {
     font-size: 18px;
     max-width: 80%;
@@ -15428,29 +15407,29 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
 }
-/* line 574, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 524, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .section-heading {
   margin-top: 0;
 }
 
-/* line 577, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 527, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .service-box {
   max-width: 400px;
   margin: 50px auto 0;
 }
 
 @media (min-width: 992px) {
-  /* line 582, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 532, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .service-box {
     margin: 20px auto 0;
   }
 }
-/* line 586, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 536, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .service-box p {
   margin-bottom: 0;
 }
 
-/* line 589, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 539, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .portfolio-box {
   position: relative;
   display: block;
@@ -15458,7 +15437,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto;
 }
 
-/* line 595, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 545, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .portfolio-box .portfolio-box-caption {
   color: white;
   opacity: 0;
@@ -15473,7 +15452,7 @@ header .header-content .header-content-inner p {
   transition: all 0.35s;
 }
 
-/* line 609, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 559, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   width: 100%;
   text-align: center;
@@ -15483,104 +15462,104 @@ header .header-content .header-content-inner p {
           transform: translateY(-50%);
 }
 
-/* line 616, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 566, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   padding: 0 15px;
 }
 
-/* line 621, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 571, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
 }
 
-/* line 626, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 576, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
 }
 
-/* line 629, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 579, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
 
-/* line 632, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 582, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .portfolio-box:focus {
   outline: none;
 }
 
 @media only screen and (max-width: 1100px) {
-  /* line 636, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 586, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects {
     padding-left: 5px;
     padding-right: 5px;
   }
 
-  /* line 640, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 590, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .box {
     width: 50%;
   }
 
-  /* line 643, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 593, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .box:nth-child(n) {
     margin-right: 5px;
   }
 
-  /* line 646, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 596, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .box:first-child {
     margin-left: 0;
   }
 
-  /* line 649, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 599, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .box:nth-child(2n-1) {
     margin-left: -5px;
   }
 
-  /* line 652, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 602, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .box:nth-child(2n) {
     margin-right: 0;
   }
 
-  /* line 655, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 605, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .box:last-child {
     margin-right: 0;
   }
 }
 @media only screen and (max-width: 520px) {
-  /* line 660, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 610, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .box {
     width: 100%;
   }
 
-  /* line 663, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 613, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .box:nth-child(n) {
     margin-right: 0;
   }
 
-  /* line 666, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 616, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .box:first-child {
     margin-left: 0;
   }
 
-  /* line 669, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 619, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .box:nth-child(2n-1) {
     margin-left: 0;
   }
 
-  /* line 672, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 622, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .box:nth-child(2n) {
     margin-right: 0;
   }
 
-  /* line 675, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 625, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .box:last-child {
     margin-right: 0;
   }
 
-  /* line 678, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 628, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .box img {
     margin-left: auto;
     margin-right: auto;
@@ -15588,7 +15567,7 @@ header .header-content .header-content-inner p {
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 688, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 638, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
@@ -15596,33 +15575,33 @@ header .header-content .header-content-inner p {
   }
 }
 @media (min-width: 768px) {
-  /* line 698, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 648, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
   }
 
-  /* line 701, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 651, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
 }
-/* line 709, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 659, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
 
-/* line 712, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 662, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .text-primary {
   color: #777;
 }
 
-/* line 715, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 665, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 719, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 669, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .btn-default {
   color: #222222;
   background-color: #ffffff;
@@ -15631,7 +15610,7 @@ header .header-content .header-content-inner p {
   transition: all 0.35s;
 }
 
-/* line 727, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 677, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
@@ -15643,14 +15622,14 @@ header .header-content .header-content-inner p {
   border-color: #ededed;
 }
 
-/* line 737, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 687, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   background-image: none;
 }
 
-/* line 742, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 692, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .btn-default.disabled,
 .btn-default[disabled],
 fieldset[disabled] .btn-default,
@@ -15673,13 +15652,13 @@ fieldset[disabled] .btn-default.active {
   border-color: #ffffff;
 }
 
-/* line 763, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 713, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .btn-default .badge {
   color: #ffffff;
   background-color: #222222;
 }
 
-/* line 767, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 717, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .btn-primary {
   color: #ffffff;
   background-color: #e5c687;
@@ -15688,7 +15667,7 @@ fieldset[disabled] .btn-default.active {
   transition: all 0.35s;
 }
 
-/* line 775, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 725, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
@@ -15700,14 +15679,14 @@ fieldset[disabled] .btn-default.active {
   border-color: #ed431f;
 }
 
-/* line 785, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 735, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   background-image: none;
 }
 
-/* line 790, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 740, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .btn-primary.disabled,
 .btn-primary[disabled],
 fieldset[disabled] .btn-primary,
@@ -15730,13 +15709,13 @@ fieldset[disabled] .btn-primary.active {
   border-color: #e5c687;
 }
 
-/* line 811, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 761, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .btn-primary .badge {
   color: #e5c687;
   background-color: #ffffff;
 }
 
-/* line 815, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 765, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   border: none;
@@ -15745,19 +15724,19 @@ fieldset[disabled] .btn-primary.active {
   text-transform: uppercase;
 }
 
-/* line 822, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 772, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .btn-xl {
   padding: 15px 30px;
 }
 
-/* line 825, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 775, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 ::-moz-selection {
   color: white;
   text-shadow: none;
   background: #222222;
 }
 
-/* line 830, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 780, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 ::-moz-selection {
   color: white;
   text-shadow: none;
@@ -15769,7 +15748,7 @@ fieldset[disabled] .btn-primary.active {
   background: #222222;
 }
 
-/* line 835, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 785, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 img::-moz-selection {
   color: white;
   background: transparent;
@@ -15779,111 +15758,121 @@ img::selection {
   background: transparent;
 }
 
-/* line 839, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 789, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 img::-moz-selection {
   color: white;
   background: transparent;
 }
 
-/* line 843, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 793, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 body {
   webkit-tap-highlight-color: #222222;
 }
 
-/* line 846, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 796, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 #email-img {
   max-width: 400px;
 }
 
-/* line 851, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 801, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 a.thankyou-nav {
   color: #222222 !important;
 }
 
-/* line 855, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 805, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .hidden {
   display: none;
 }
 
+/* Media Queries for Main Logo */
+@media (max-width: 768px) {
+  /* line 812, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  img.main-logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+  }
+}
+/* Media Queries for Main Logo End */
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
 |* Media Queries for image overlays
 |* ------------------------------------------------------------ *|
 \* ------------------------------------------------------------ */
 @media only screen and (max-width: 1100px) {
-  /* line 863, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 827, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects {
     padding-left: 5px;
   }
 
-  /* line 866, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 830, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .img {
     width: 50%;
   }
 
-  /* line 869, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 833, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .img:nth-child(n) {
     margin-right: 5px;
   }
 
-  /* line 872, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 836, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .img:first-child {
     margin-left: 0;
   }
 
-  /* line 875, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 839, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .img:nth-child(2n-1) {
     margin-left: -5px;
   }
 
-  /* line 878, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 842, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .img:nth-child(2n) {
     margin-right: 0;
   }
 
-  /* line 881, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 845, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .img:last-child {
     margin-right: 0;
   }
 }
 @media only screen and (max-width: 520px) {
-  /* line 886, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 850, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .img {
     width: 100%;
   }
 
-  /* line 889, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 853, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .img:nth-child(n) {
     margin-right: 0;
   }
 
-  /* line 892, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 856, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .img:first-child {
     margin-left: 0;
   }
 
-  /* line 895, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 859, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .img:nth-child(2n-1) {
     margin-left: 0;
   }
 
-  /* line 898, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 862, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .img:nth-child(2n) {
     margin-right: 0;
   }
 
-  /* line 901, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 865, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .img:last-child {
     margin-right: 0;
   }
 
-  /* line 904, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+  /* line 868, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
   .effects .img img {
     margin: 0 auto;
   }
 }
 /*flash*/
-/* line 911, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 875, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .alert-error {
   background-color: #f2dede;
   border-color: #eed3d7;
@@ -15891,7 +15880,7 @@ a.thankyou-nav {
   text-align: left;
 }
 
-/* line 918, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 882, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .alert-alert {
   background-color: #f2dede;
   border-color: #eed3d7;
@@ -15899,7 +15888,7 @@ a.thankyou-nav {
   text-align: left;
 }
 
-/* line 925, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 889, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .alert-success {
   background-color: #dff0d8;
   border-color: #d6e9c6;
@@ -15907,7 +15896,7 @@ a.thankyou-nav {
   text-align: left;
 }
 
-/* line 932, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
+/* line 896, /Users/AndrewSmith1/development/home-training/jess-app/app/assets/stylesheets/application.scss */
 .alert-notice {
   background-color: #dff0d8;
   border-color: #d6e9c6;

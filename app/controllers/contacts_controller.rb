@@ -16,6 +16,8 @@ class ContactsController < ApplicationController
     else
       redirect_to root_path(@contact, anchor: 'contact_form')
       flash.now[:error] = 'Cannot send message. Please try again.'
+     
+      
    
     end
   end

@@ -69,6 +69,7 @@
   p.timeline-Tweet-text{
     font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   }
+  
   .bg-primary {
     background-color: #ffffff;
   }
@@ -370,7 +371,7 @@ img.main-logo {
     margin-right: 0;
   }
   .effects .img img {
-    display: block;
+   
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -388,6 +389,7 @@ img.main-logo {
     -o-transition: all 0.5s;
     transition: all 0.5s;
     text-align: center;
+    padding: 10px;
   }
 
   a.close-overlay {
@@ -428,18 +430,18 @@ img.main-logo {
     -o-border-radius: 30px;
     border-radius: 30px;
   }
-  img.itunes {
-    max-width: 10px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-  }
+  // img.itunes {
+  //   max-width: 10px;
+  //   position: relative;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  //   margin-top: 2em;
+  // }
   /* ============================================================
     EFFECT 1 - SLIDE IN BOTTOM
   ============================================================ */
   #effect-1 .overlay {
-    bottom: 0;
+    bottom: -20px;
     left: 0;
     right: 0;
     width: 100%;
@@ -453,7 +455,11 @@ img.main-logo {
   }
   #effect-1 .img.hover .overlay {
     height: 100%;
+    bottom: 0px;
+    
   }
+ 
+ 
 
  /* END slide in bottom*/
 

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170315160437) do
+ActiveRecord::Schema.define(version: 20170524172843) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -50,16 +50,6 @@ ActiveRecord::Schema.define(version: 20170315160437) do
     t.string   "image"
     t.string   "artist"
     t.string   "itunes_link"
-    t.string   "track_1"
-    t.string   "track_2"
-    t.string   "track_3"
-    t.string   "track_4"
-    t.string   "track_5"
-    t.string   "track_6"
-    t.string   "track_7"
-    t.string   "track_8"
-    t.string   "track_9"
-    t.string   "track_10"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
@@ -69,4 +59,14 @@ ActiveRecord::Schema.define(version: 20170315160437) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "tracks", force: :cascade do |t|
+    t.string   "name"
+    t.string   "feat"
+    t.integer  "album_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["album_id"], name: "index_tracks_on_album_id", using: :btree
+  end
+
+  add_foreign_key "tracks", "albums"
 end

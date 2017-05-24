@@ -57,22 +57,22 @@
         <div class="img">
         
           <%= image_tag(album.image.thumb, :alt => 'Album image', :class =>"img-fluid") %>
+          
               <div class="overlay">
                 
                 <h4><%= album.artist %>:</h4>
 
                 <div class="white">
-                 <%= album.track_1 %><br>
-                 <%= album.track_2 %><br>
-                 <%= album.track_3 %><br>
-                 <%= album.track_4 %><br>
-                 <%= album.track_5 %><br>
-                 <%= album.track_6 %><br>
-                 <%= album.track_7 %><br>
-                <%= album.track_8 %><br>
-                 <%= album.track_9 %><br>
-                 <%= album.track_10 %><br>
-                 <%= link_to image_tag('get_it_on_itunes.svg', :alt => "Get it on itunes", :class => "itunes"), album.itunes_link %>
+                 <% album.tracks.each do |t| %>
+                   <p class="mb-0">
+                    <%= t.name %>
+                    
+                    <%= "feat. "+t.feat if t.feat? %>
+                   
+                   </p>
+                 <% end %>
+                 
+                 <%= link_to image_tag('get_it_on_itunes.svg', :alt => "Get it on itunes", :class => "pt-2"), album.itunes_link %>
                 </div>
         
                 

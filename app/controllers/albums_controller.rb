@@ -21,6 +21,8 @@ class AlbumsController < ApplicationController
   def edit
   end
 
+  
+
   # POST /albums
   # POST /albums.json
   def create
@@ -69,6 +71,6 @@ class AlbumsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def album_params
-      params.require(:album).permit(:image, :artist, :itunes_link, :track_1, :track_2, :track_3, :track_4, :track_5, :track_6, :track_7, :track_8, :track_9, :track_10)
+      params.require(:album).permit(:image, :artist, :itunes_link)
     end
 end

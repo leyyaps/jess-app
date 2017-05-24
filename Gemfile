@@ -9,8 +9,10 @@ gem 'mail_form'
 gem 'carrierwave'
 gem 'font-awesome-sass'
 
-gem 'activeadmin', github: 'activeadmin'
-gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+# gem 'activeadmin', github: 'activeadmin'
+# gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+
+gem 'rails_admin', '~> 1.1.1'
 
 gem 'simple_form'
 gem 'figaro'

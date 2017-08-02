@@ -2,11 +2,15 @@ class ContactsController < ApplicationController
   def new
     @albums = Album.all
     @contact = Contact.new
+   
+    authorize @contact
   end
 
   def create
     @albums = Album.all
+
     @contact = Contact.new(params[:contact])
+    authorize @contact
     @contact.request = request
     if @contact.deliver
       flash[:notice] = 'Thank you for your message. We will contact you soon!'

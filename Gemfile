@@ -13,7 +13,7 @@ gem 'font-awesome-sass'
 # gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 
 gem 'rails_admin', '~> 1.1.1'
-
+gem 'pundit'
 gem 'simple_form'
 gem 'figaro'
 gem 'fog'

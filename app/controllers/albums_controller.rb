@@ -1,10 +1,11 @@
 class AlbumsController < ApplicationController
   before_action :set_album, only: [:show, :edit, :update, :destroy]
-
+  after_action :verify_authorized
   # GET /albums
   # GET /albums.json
   def index
     @albums = Album.all
+    authorize @albums
   end
 
   # GET /albums/1
@@ -15,10 +16,12 @@ class AlbumsController < ApplicationController
   # GET /albums/new
   def new
     @album = Album.new
+    authorize @album
   end
 
   # GET /albums/1/edit
   def edit
+    authorize @album
   end
 
   
@@ -27,6 +30,7 @@ class AlbumsController < ApplicationController
   # POST /albums.json
   def create
     @album = Album.new(album_params)
+    authorize @album
 
     respond_to do |format|
       if @album.save
@@ -42,6 +46,7 @@ class AlbumsController < ApplicationController
   # PATCH/PUT /albums/1
   # PATCH/PUT /albums/1.json
   def update
+    authorize @album
     respond_to do |format|
       if @album.update(album_params)
         format.html { redirect_to @album, notice: 'Album was successfully updated.' }
@@ -57,6 +62,7 @@ class AlbumsController < ApplicationController
   # DELETE /albums/1.json
   def destroy
     @album.destroy
+    authorize @album
     respond_to do |format|
       format.html { redirect_to albums_url, notice: 'Album was successfully destroyed.' }
       format.json { head :no_content }

@@ -812,3 +812,19 @@ img.main-logo {
   }
 
   /*flash*/
+
+  // Devise
+  .login {
+
+    margin-top: 60px;
+    min-height: 700px;
+  }
+  label.email.optional {
+    padding-right: 5px;
+  }
+  label.password.optional {
+    padding-right: 5px;
+  }
+  input.boolean.optional {
+    padding-right: 5px;
+  }

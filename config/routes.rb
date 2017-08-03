@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
-  devise_for :users
+  # devise_for :users, skip: [:registrations]
+  # as :user do
+  #   get 'login', to: 'devise/sessions#new', as: :new_user_session
+  #   post 'login', to: 'devise/sessions#new', as: :user_session
+  #   delete 'signout', to: 'devise/sessions#destroy', as: :destroy_session
+  # end
+
+  devise_for :users, path: '', path_names: { sign_in: 'login', sign_out: 'logout' }
+
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   # devise_for :admin_users, ActiveAdmin::Devise.config
   # ActiveAdmin.routes(self)

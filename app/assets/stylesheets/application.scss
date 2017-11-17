@@ -351,9 +351,9 @@ img.main-logo {
     color: #fff;
 
   }
-  .effects {
-    padding-left: 15px;
-  }
+  // .effects {
+  //   padding-left: 15px;
+  // }
   .effects .img {
     position: relative;
     float: left;
@@ -362,7 +362,7 @@ img.main-logo {
     overflow: hidden;
   }
   .effects .img:nth-child(n) {
-    margin-right: 5px;
+    margin-right: 3px;
   }
   .effects .img:first-child {
     margin-left: -15px;

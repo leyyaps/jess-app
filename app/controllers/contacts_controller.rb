@@ -21,7 +21,7 @@ class ContactsController < ApplicationController
       redirect_to @contact
     else
       render 'new'
-    end
+    
 
     authorize @contact
     @contact.request = request

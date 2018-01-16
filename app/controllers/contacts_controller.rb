@@ -17,10 +17,10 @@ class ContactsController < ApplicationController
     # render 'new'
     # end  
    
-    if verify_recaptcha(model: @contact) && @contact.request
-      redirect_to @contact
-    else
-      render 'new'
+    # if verify_recaptcha(model: @contact) && @contact.request
+    #   redirect_to @contact
+    # else
+    #   render 'new'
     
 
     authorize @contact

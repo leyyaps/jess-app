@@ -11,11 +11,11 @@ class ContactsController < ApplicationController
 
     @contact = Contact.new(params[:contact])
     
-    if verify_recaptcha(model: @contact) && @contact.save
-      redirect_to @contact
-    else
-    render 'new'
-    end  
+    # if verify_recaptcha(model: @contact) && @contact.save
+    #   redirect_to @contact
+    # else
+    # render 'new'
+    # end  
 
     authorize @contact
     @contact.request = request

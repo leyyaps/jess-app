@@ -10,17 +10,11 @@ class ContactsController < ApplicationController
     @albums = Album.all
 
     @contact = Contact.new(params[:contact])
-
-    # if verify_recaptcha(model: @contact) && @contact.save
-    #   redirect_to @contact
-    # else
-    # render 'new'
-    # end  
-   
-    # if verify_recaptcha(model: @contact) && @contact.request
-    #   redirect_to @contact
-    # else
-    #   render 'new'
+    if verify_recaptcha(model: @contact)
+      redirect_to @contact
+    else
+    render 'new'
+    end  
     
 
     authorize @contact

@@ -10,16 +10,19 @@ class ContactsController < ApplicationController
     @albums = Album.all
 
     @contact = Contact.new(params[:contact])
-    if verify_recaptcha(model: @contact)
-      redirect_to root_path(@contact, anchor: 'contact_form')
-    else
-      redirect_to root_path(@contact, anchor: 'contact_form')
-    end  
-    
+   
 
     authorize @contact
     @contact.request = request
-    if @contact.deliver
+
+    # if verify_recaptcha(model: @contact)
+    #   redirect_to root_path(@contact, anchor: 'contact_form')
+    # else
+    # render 'new'
+    # end  
+
+    
+    if @contact.deliver && verify_recaptcha(model: @contact)
       flash[:notice] = 'Thank you for your message. We will contact you soon!'
 
       redirect_to root_path(@contact, anchor: 'contact_form')

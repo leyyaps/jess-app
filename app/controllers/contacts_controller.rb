@@ -11,7 +11,7 @@ class ContactsController < ApplicationController
 
     @contact = Contact.new(params[:contact])
     if verify_recaptcha(model: @contact)
-      redirect_to @contact
+      redirect_to root_path(@contact, anchor: 'contact_form')
     else
     render 'new'
     end  

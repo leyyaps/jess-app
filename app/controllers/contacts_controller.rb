@@ -13,7 +13,7 @@ class ContactsController < ApplicationController
     if verify_recaptcha(model: @contact)
       redirect_to root_path(@contact, anchor: 'contact_form')
     else
-    render 'new'
+      redirect_to root_path(@contact, anchor: 'contact_form')
     end  
     
 

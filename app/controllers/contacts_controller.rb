@@ -22,7 +22,7 @@ class ContactsController < ApplicationController
     # end  
 
     
-    if @contact.deliver && verify_recaptcha(model: @contact)
+    if verify_recaptcha(model: @contact) && @contact.deliver
       flash[:notice] = 'Thank you for your message. We will contact you soon!'
 
       redirect_to root_path(@contact, anchor: 'contact_form')

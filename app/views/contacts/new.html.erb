@@ -14,9 +14,17 @@
     </div>
   
 </header>
-<section id="jess">
+
+<section>
+    <div class="bg-wrap">
+        <div class="bg-jess"></div>
+    </div>
 </section>
 
+
+<!-- <section id="jess">
+</section>
+ -->
 <section class="" id="about">
     <div class="container">
         <div class="row">
@@ -36,11 +44,12 @@
         </div>
     </div>
 </section>
-<section id="mixer">
-    
-
-
+<section>
+    <div class="bg-wrap">
+        <div class="bg-mixer"></div>
+    </div>
 </section>
+
 
 <section id="listen">
   <div class="container">
@@ -91,11 +100,12 @@
    </div>
 </section>
 
-<section id="jess_tea">
-    
-
-
+<section>
+    <div class="bg-wrap">
+        <div class="bg-tea"></div>
+    </div>
 </section>
+
 
 <section class="" id="news">
     <div class="container">          
@@ -115,11 +125,12 @@
         </div>
     </div>
 </section>
-<section id="typewriter">
-    
-
-
+<section>
+    <div class="bg-wrap">
+        <div class="bg-typewriter"></div>
+    </div>
 </section>
+
 
 <section id="contact">
     <div class="container">
@@ -158,8 +169,9 @@
                 <div class= "hidden">
                   <%= f.input :nickname, :hint => 'Leave this field blank!' %>
                 </div>
+                <div class="mx-auto">
                 <%= recaptcha_tags %>
-           
+                </div>
                 <div class="col-lg-12 text-center">
                   <%= f.button :submit, 'Send message', :class=> "btn btn-xl" %>
                 </div>

@@ -13,6 +13,10 @@ Rails.application.routes.draw do
   # ActiveAdmin.routes(self)
   resources :albums, only: [:show, :index]
   
+  # namespace :users do
+  #   get 'dashboard' => 'dashboard#index', as: :dashboard
+  # end
+  
   match '/contact_us',     to: 'contacts#new',             via: 'get'
   resources "contacts", only: [:new, :create]
   
